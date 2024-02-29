@@ -81,7 +81,7 @@ class EditScreen extends StatelessWidget {
                           controller: emailController,
                           autovalidateMode: AutovalidateMode.always,
                           keyboardType: TextInputType.emailAddress,
-                          autofocus: true,
+                          
                           validator: FormBuilderValidators.compose([
                             FormBuilderValidators.required(),
                             FormBuilderValidators.email()
